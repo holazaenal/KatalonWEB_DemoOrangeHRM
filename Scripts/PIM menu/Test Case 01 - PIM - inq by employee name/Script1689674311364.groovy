@@ -29,9 +29,7 @@ WebUI.click(findTestObject('Login/Home - Button - Login'))
 
 WebUI.click(findTestObject('Main/Select menu - PIM'))
 
-WebUI.click(findTestObject('Main/PIM - select Job Title'))
-
-WebUI.selectOptionByValue(findTestObject('Main/JobTitle - select'), '9', false)
+WebUI.setText(findTestObject('Main/input EmployeeName'), 'David John')
 
 WebUI.click(findTestObject('Main/PIM - button submit'))
 
