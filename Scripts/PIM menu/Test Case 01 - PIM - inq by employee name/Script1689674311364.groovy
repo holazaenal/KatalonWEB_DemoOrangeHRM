@@ -29,7 +29,7 @@ WebUI.click(findTestObject('Login/Home - Button - Login'))
 
 WebUI.click(findTestObject('Main/Select menu - PIM'))
 
-WebUI.setText(findTestObject('Main/input EmployeeName'), 'David John')
+WebUI.setText(findTestObject('Main/input EmployeeName'), 'David')
 
 WebUI.click(findTestObject('Main/PIM - button submit'))
 
